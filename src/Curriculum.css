@@ -1,0 +1,220 @@
+/* Global Styles */
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #007BFF;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  header a {
+    color: #0091ff;
+    text-decoration: none;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Styles */
+  section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 28px;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    padding-left: 20px;
+  }
+  
+  section li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  section em {
+    font-style: italic;
+    color: #555;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  footer small {
+    font-size: 12px;
+  }
+  
+  /* Profile Section */
+  #profile {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Skills Section */
+  #skills ul {
+    list-style-type: none;
+  }
+  
+  #skills li {
+    font-size: 16px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  
+  /* Experience Section */
+  #experience h3 {
+    font-size: 22px;
+    color: #333;
+  }
+  
+  #experience p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  #experience ul {
+    list-style-type: none;
+  }
+  
+  #experience li {
+    font-size: 16px;
+  }
+  
+  /* Education Section */
+  #education h3 {
+    font-size: 22px;
+    color: #333;
+  }
+  
+  #education p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Languages Section */
+  #languages ul {
+    list-style-type: none;
+  }
+  
+  #languages li {
+    font-size: 16px;
+  }
+  
+  /* Soft Skills Section */
+  #soft-skills ul {
+    list-style-type: none;
+  }
+  
+  #soft-skills li {
+    font-size: 16px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin: 10px 0;
+    }
+  
+    section {
+      padding: 15px;
+    }
+  }
+  
